@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.sticky{
+    display: flex;
+    list-style: none;
+font-size:20px ;
+margin-top: 5px;
+}
+.navbar-link{
+    text-decoration: none;
+list-style:  none;
+padding: 2px 7px 2px 7px;
+margin: 18px;
+height: 5px;
+width: 8px;
+border-radius: 15px;
+background-color: blanchedalmond;
+color: black;
+text-align: center;
+border: 2px solid black;
+position: relative;
+cursor: pointer;
+}
+.navbar{
+
+    height:33px;
+    padding: 12px 0px 12px 0px;
+    background-color: rgb(193, 210, 226);
+    width: 1575px;
+    margin: -37px;
+}
+.sticky input{
+    left:80px ;
+    border-radius: 15px;
+    text-align: center;
+    margin: -4px;
+    height: 28px;
+    margin-left: 830px;
+    width: 170px;
+}
+.sticky ion-icon{
+    height: 30px;
+    width: 20px;
+     border-radius: 50%;
+}
+svg{
+    height: 50px;
+    width: 40px;
+    border-radius: 50%;
+    margin: -14px 0px 0px 15px;
+    padding-left: 30px;
+}
+.navbar{
+position: fixed;
+box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.1);
+}
+.home{
+    margin-top: 20px;
+    height: 350px;
+    background-color: aqua;
+}
+.about{
+    height: 400px;
+    background-color: rgb(0, 8, 255);
+}
+.services{
+    height: 400px;
+    background-color: rgb(255, 0, 51);
+}
+.contactus{
+    height: 350px;
+    background-color: rgb(94, 255, 0);
+}
